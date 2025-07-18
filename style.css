@@ -1,0 +1,14 @@
+
+body { margin: 0; font-family: sans-serif; background: #f0f2f5; }
+.topbar { background: #004225; color: white; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.5rem; }
+.searchbar { padding: 5px; font-size: 1rem; }
+.main-content { display: flex; }
+.sidebar { width: 200px; background: white; padding: 10px; }
+.profile-pic { width: 100px; border-radius: 50%; }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar li { margin: 10px 0; }
+.feed { flex: 1; padding: 10px; }
+.post-box textarea { width: 100%; }
+.post-box button { margin-top: 5px; background: green; color: white; border: none; padding: 5px 10px; }
+.post { background: white; margin-top: 10px; padding: 10px; border-radius: 5px; }
