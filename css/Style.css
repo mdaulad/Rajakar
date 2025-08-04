@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("../assets/bg.jpg") no-repeat center/cover;
+  color: white;
+  margin: 0;
+}
+header {
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a.active {
+  font-weight: bold;
+}
+button {
+  padding: 8px 15px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+  }
